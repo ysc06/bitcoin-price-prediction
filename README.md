@@ -7,7 +7,7 @@
 ## Overview
 This project explores how well different regression models can predict **Bitcoin’s daily market price** using blockchain activity data. The goal was to test how traditional statistical learning methods — **Linear Regression**, **Ridge Regression**, and **Lasso Regression** — perform on a highly volatile financial time series.
 
-The dataset comes from a Kaggle competition. Each observation represents one day of Bitcoin’s network activity. Because the data are sequential, I kept the **time order intact** during train/test splitting to preserve the temporal dependencies.
+The dataset comes from a Kaggle competition. Each observation represents one day of Bitcoin’s network activity. Because the data are sequential, I kept the time order intact during train/test splitting to preserve the temporal dependencies.
 
 ---
 
